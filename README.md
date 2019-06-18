@@ -1,21 +1,22 @@
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This project is a website that displays a list of music artists along with their discography and bio. 
+The application uses a mock server to pull artist. 
 
-### `npm start`
+## Run Application
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To start the mock server, you need to install json-server and then run it.<br>
+This snippet of code starts the server at port 3004.<br>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.<br>
-
-To access the data, it uses a json-server on port 3004.
 ```
+    npm install -g json-server
     json-server --watch db.json --port 3004
 ```
-
+Use npm install to download all the node modules for this project and npm start to run it.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 
- 
+![screenshot](home.png)
+<br>
+![screenshot](artist.png)
